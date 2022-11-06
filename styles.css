@@ -1,0 +1,64 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    background-image: linear-gradient(rgba(238, 226, 226, 0.75), rgba(43, 41, 41, 0.75)), url(pexels-victoria-akvarel-1648776.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.navbar{
+    text-align: end;
+    padding: 20px;
+    padding-right: 140px;
+    font-size: larger;
+    font-weight: bolder;
+    height:70px;
+}
+
+.navbar a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover, i:hover{
+    color: white;
+}
+
+.navbar i{
+    position: relative;
+    right: 580px;
+    top: 10px;
+    font-size: 50px;
+}
+
+.container{
+    text-align: center;
+    margin: 150px;
+    font-size: larger;
+}
+
+.header p{
+    margin-top: -10px;
+}
+
+span input{
+    padding: 15px 40px;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    background-color: grey;
+    font-size: large;
+    cursor: pointer;
+}
+
+input:hover{
+    color: white;
+}
+
